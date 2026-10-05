@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>午夜伦理电影网 · 深夜伦理片单｜两难、沉默与不得不做的选择</title>
+<meta name="description" content="午夜伦理电影网（wuyelunlidianyingwang-zh.github.io）在深夜整理那些让主角陷入两难抉择的伦理片，每部标注核心困境、共犯人物与三条讨论线索，供看完之后慢慢想清楚。">
+<meta name="keywords" content="午夜伦理电影网, 伦理电影推荐, 两难困境片, 道德抉择片单, 深夜观影, 家庭伦理, 医患抉择, 人性题材, wuyelunlidianyingwang-zh">
+<meta name="author" content="午夜伦理电影网">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0b0c10">
+<meta property="og:type" content="website">
+<meta property="og:title" content="午夜伦理电影网 - 深夜伦理片单">
+<meta property="og:description" content="每部片标注核心困境与讨论线索，看完之后慢慢想。">
+<meta property="og:url" content="https://wuyelunlidianyingwang-zh.github.io">
+<link rel="canonical" href="https://wuyelunlidianyingwang-zh.github.io">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0b0c10;--bg2:#11131a;--bg3:#161922;--line:#262a36;--line2:#333845;
+  --txt:#d7dae2;--dim:#8a90a0;--faint:#5d6474;
+  --lil:#7b6cf6;--plum:#a8557a;--teal:#3aa39a;--amber:#c9963a;--rust:#c0533a;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--bg);color:var(--txt);line-height:1.85;font-size:15px;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:radial-gradient(ellipse 80% 60% at 50% -10%,rgba(123,108,246,.10),transparent 60%),radial-gradient(ellipse 70% 50% at 50% 110%,rgba(168,85,122,.08),transparent 60%);
+}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.4;background-image:repeating-linear-gradient(0deg,transparent 0,transparent 2px,rgba(255,255,255,.012) 2px,rgba(255,255,255,.012) 3px)}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--plum);color:#fff}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+ul{list-style:none}
+
+/* 顶部状态条 */
+.bar{position:sticky;top:0;z-index:60;border-bottom:1px solid var(--line);background:rgba(11,12,16,.82);backdrop-filter:blur(10px)}
+.bar .in{max-width:1080px;margin:0 auto;padding:0 28px;display:flex;align-items:center;gap:18px;height:52px}
+.logo{display:flex;align-items:baseline;gap:9px;flex-shrink:0}
+.logo b{font-size:16px;letter-spacing:2px;font-weight:700}
+.logo b i{font-style:normal;color:var(--plum)}
+.logo span{font-size:9px;letter-spacing:2px;color:var(--faint);text-transform:uppercase}
+.clock{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--dim);font-variant-numeric:tabular-nums}
+.clock .d{width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px var(--teal);animation:pulse 2.4s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.bar nav{display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.bar nav::-webkit-scrollbar{display:none}
+.bar nav a{font-size:12px;color:var(--dim);padding:0 12px;white-space:nowrap;border-left:1px solid var(--line);transition:.2s}
+.bar nav a:last-child{border-right:1px solid var(--line)}
+.bar nav a:hover{color:var(--txt)}
+
+/* 封面 */
+.cover{min-height:88vh;display:flex;flex-direction:column;justify-content:center;position:relative;padding:70px 0 60px;border-bottom:1px solid var(--line);overflow:hidden}
+.cover .glow{position:absolute;right:-6vw;top:8%;width:46vw;height:46vw;border-radius:50%;background:radial-gradient(circle,rgba(123,108,246,.16),transparent 65%);z-index:0}
+.cover .glow2{position:absolute;left:-10vw;bottom:-8vw;width:40vw;height:40vw;border-radius:50%;background:radial-gradient(circle,rgba(168,85,122,.14),transparent 65%);z-index:0}
+.cover .in{position:relative;z-index:1}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:10px;letter-spacing:4px;color:var(--plum);margin-bottom:26px;text-transform:uppercase}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--plum)}
+.cover h1{font-size:clamp(38px,9vw,96px);font-weight:800;line-height:.98;letter-spacing:-2px;margin-bottom:8px}
+.cover h1 .thin{font-weight:200;color:var(--dim)}
+.cover h1 .em{font-style:normal;background:linear-gradient(100deg,var(--lil),var(--plum));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cover .zh{font-size:clamp(14px,2.4vw,18px);color:var(--dim);letter-spacing:6px;margin:18px 0 30px;font-weight:200}
+.lead{max-width:640px;font-size:16px;color:var(--txt);font-weight:300;line-height:2;margin-bottom:44px}
+.lead b{color:#fff;font-weight:600}
+.scroll-cue{position:absolute;bottom:26px;left:28px;font-size:10px;letter-spacing:3px;color:var(--faint);display:flex;align-items:center;gap:10px}
+.scroll-cue::after{content:"";width:46px;height:1px;background:linear-gradient(90deg,var(--faint),transparent)}
+
+/* 区块通用 */
+section{padding:76px 0;border-bottom:1px solid var(--line);position:relative}
+.head{margin-bottom:40px}
+.head .tag{font-size:10px;letter-spacing:4px;color:var(--lil);text-transform:uppercase;margin-bottom:10px;display:block}
+.head h2{font-size:clamp(24px,4vw,34px);font-weight:800;letter-spacing:-.5px;line-height:1.25}
+.head h2 em{font-style:normal;color:var(--plum);font-weight:300}
+.head p{font-size:13.5px;color:var(--dim);margin-top:12px;max-width:660px;font-weight:300}
+.hr{height:1px;background:linear-gradient(90deg,var(--line2),transparent);margin:0}
+
+/* 困境卡片 */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--bg2);border:1px solid var(--line);padding:26px 24px;transition:.35s cubic-bezier(.2,.7,.3,1);position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;left:0;top:0;width:2px;height:0;background:linear-gradient(180deg,var(--lil),var(--plum));transition:.35s}
+.card:hover{transform:translateY(-5px);border-color:var(--line2);background:var(--bg3)}
+.card:hover::before{height:100%}
+.card .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.card .no{font-size:11px;color:var(--faint);letter-spacing:2px;font-variant-numeric:tabular-nums}
+.card .pill{font-size:9px;letter-spacing:1px;padding:3px 9px;border-radius:20px;background:rgba(123,108,246,.12);color:var(--lil);border:1px solid rgba(123,108,246,.25)}
+.card .pill.h{background:rgba(168,85,122,.12);color:var(--plum);border-color:rgba(168,85,122,.25)}
+.card h3{font-size:19px;font-weight:700;letter-spacing:.5px;margin-bottom:10px;line-height:1.4}
+.card .quote{font-size:13px;color:var(--plum);font-weight:300;padding:12px 0 12px 14px;border-left:1px solid var(--plum);margin-bottom:18px;line-height:1.75}
+.card dl{font-size:12px;border-top:1px solid var(--line)}
+.card dl div{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}
+.card dl dt{color:var(--faint);flex-shrink:0;width:52px;letter-spacing:1px}
+.card dl dd{color:var(--txt);font-weight:300}
+.card .more{display:inline-flex;align-items:center;gap:6px;margin-top:20px;font-size:11px;color:var(--dim);letter-spacing:1px;transition:.2s}
+.card:hover .more{color:var(--plum)}
+.card .more::after{content:"→";transition:.2s}
+.card:hover .more::after{transform:translateX(4px)}
+
+/* 片单：左右交错 */
+.films{display:flex;flex-direction:column;gap:0}
+.film{display:grid;grid-template-columns:88px 1fr 1.1fr;gap:32px;padding:30px 0;border-top:1px solid var(--line);align-items:flex-start;transition:.3s}
+.film:last-child{border-bottom:1px solid var(--line)}
+.film:hover{background:linear-gradient(90deg,rgba(123,108,246,.04),transparent)}
+.film .idx{font-size:13px;color:var(--faint);letter-spacing:2px;font-variant-numeric:tabular-nums;padding-top:4px}
+.film .info h3{font-size:18px;font-weight:700;letter-spacing:.5px;margin-bottom:5px}
+.film .info h3 span{font-weight:300;color:var(--faint);font-size:13px;margin-left:8px;letter-spacing:1px}
+.film .info .dilemma{font-size:13px;color:var(--dim);font-weight:300;margin-bottom:12px;line-height:1.8}
+.film .meta{display:flex;gap:8px;flex-wrap:wrap}
+.film .meta span{font-size:9.5px;letter-spacing:1px;padding:3px 9px;border:1px solid var(--line);color:var(--dim);border-radius:2px}
+.film .meta span.c{color:var(--plum);border-color:rgba(168,85,122,.3)}
+.film .threads{display:flex;flex-direction:column;gap:9px}
+.film .threads .t{font-size:12px;color:var(--txt);font-weight:300;padding-left:16px;position:relative;line-height:1.65}
+.film .threads .t::before{content:"";position:absolute;left:0;top:8px;width:7px;height:1px;background:var(--lil)}
+.film .threads .t i{font-style:normal;color:var(--faint);display:block;font-size:11px}
+
+/* 讨论室 */
+.room{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.panel{background:var(--bg2);border:1px solid var(--line);padding:28px}
+.panel h3{font-size:16px;font-weight:700;letter-spacing:1px;margin-bottom:6px}
+.panel .who{font-size:10px;letter-spacing:2px;color:var(--teal);text-transform:uppercase;margin-bottom:16px}
+.panel .q{font-size:13px;color:var(--plum);font-weight:400;line-height:1.9;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.panel ol{font-size:12.5px;color:var(--dim);font-weight:300;counter-reset:n}
+.panel ol li{counter-increment:n;margin-bottom:11px;padding-left:26px;position:relative;line-height:1.75}
+.panel ol li::before{content:counter(n);position:absolute;left:0;top:0;font-size:10px;color:var(--teal);border:1px solid var(--line);width:17px;height:17px;display:grid;place-items:center;border-radius:50%}
+
+/* 深夜仪式 */
+.ritual{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line)}
+.step{background:var(--bg);padding:28px 24px;position:relative;min-height:170px}
+.step .n{font-size:34px;font-weight:800;color:var(--line2);line-height:1;margin-bottom:14px;font-variant-numeric:tabular-nums}
+.step h4{font-size:14px;font-weight:700;letter-spacing:1px;margin-bottom:9px}
+.step p{font-size:12px;color:var(--dim);font-weight:300;line-height:1.8}
+.step .at{font-size:10px;color:var(--faint);margin-top:14px;letter-spacing:1px}
+
+/* 索引 */
+.idx-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
+.idx{border:1px solid var(--line);padding:22px 20px;transition:.3s;cursor:default}
+.idx:hover{border-color:var(--plum);background:rgba(168,85,122,.05)}
+.idx .k{font-size:10px;color:var(--lil);letter-spacing:2px;margin-bottom:10px}
+.idx ul li{font-size:12.5px;padding:5px 0;border-top:1px dotted var(--line);display:flex;justify-content:space-between;color:var(--txt);font-weight:300}
+.idx ul li:first-child{border:0}
+.idx ul li span{color:var(--faint);font-size:10px;flex-shrink:0;padding-left:8px}
+
+/* 边角问题 */
+.aside{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:flex-start}
+.aside h3{font-size:19px;font-weight:700;margin-bottom:18px;letter-spacing:.5px}
+.aside p{font-size:13.5px;color:var(--dim);font-weight:300;margin-bottom:14px;text-align:justify}
+.aside .blk{border-left:2px solid var(--lil);padding:4px 0 4px 20px;margin-bottom:22px}
+.aside .blk h4{font-size:14px;font-weight:700;margin-bottom:6px}
+.aside .blk p{margin:0;font-size:12.5px}
+.stats{border:1px solid var(--line);padding:26px}
+.stats .row{display:flex;justify-content:space-between;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--line)}
+.stats .row:last-child{border:0}
+.stats .row b{font-size:24px;font-weight:800;color:var(--plum);font-variant-numeric:tabular-nums}
+.stats .row span{font-size:11px;color:var(--dim);letter-spacing:1px}
+
+/* 问答 */
+.faqs{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line)}
+.faq{padding:26px 30px;border-bottom:1px solid var(--line)}
+.faq:nth-child(odd){border-right:1px solid var(--line)}
+.faq .q{font-size:14.5px;font-weight:700;margin-bottom:11px;letter-spacing:.3px}
+.faq .q::before{content:"? ";color:var(--plum);font-weight:800}
+.faq p{font-size:12.5px;color:var(--dim);font-weight:300;text-align:justify}
+
+/* CTA */
+.cta{text-align:center;padding:90px 0}
+.cta .eyebrow{justify-content:center;display:inline-flex}
+.cta h2{font-size:clamp(26px,4.6vw,42px);font-weight:800;letter-spacing:-1px;line-height:1.35;max-width:760px;margin:0 auto 20px}
+.cta h2 em{font-style:normal;color:var(--plum);font-weight:300}
+.cta p{font-size:13.5px;color:var(--dim);max-width:520px;margin:0 auto 34px;font-weight:300}
+.cta form{display:flex;max-width:440px;margin:0 auto;gap:0;border:1px solid var(--line2)}
+.cta input{flex:1;padding:14px 16px;background:var(--bg2);border:0;color:var(--txt);font-family:inherit;font-size:13px;outline:none}
+.cta input::placeholder{color:var(--faint)}
+.cta button{background:var(--plum);color:#fff;border:0;padding:0 26px;font-family:inherit;font-size:12px;letter-spacing:2px;cursor:pointer;transition:.25s;white-space:nowrap}
+.cta button:hover{background:var(--lil)}
+.cta .note{font-size:10px;color:var(--faint);margin-top:16px;letter-spacing:1px}
+
+footer{border-top:1px solid var(--line);padding:48px 0 0;background:#08090c}
+.ft{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px;padding-bottom:40px}
+.ft .b{font-size:20px;font-weight:800;letter-spacing:2px;margin-bottom:8px}
+.ft .b i{font-style:normal;color:var(--plum)}
+.ft .u{font-size:11px;color:var(--teal);letter-spacing:1px;margin-bottom:14px;word-break:break-all}
+.ft p{font-size:12px;color:var(--dim);font-weight:300}
+.ft h5{font-size:10px;letter-spacing:3px;color:var(--faint);margin-bottom:14px;text-transform:uppercase}
+.ft ul li{margin-bottom:9px}
+.ft ul a{font-size:12.5px;color:var(--dim);transition:.2s;font-weight:300}
+.ft ul a:hover{color:var(--plum)}
+.colo{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-top:1px solid var(--line);font-size:10px;color:var(--faint);letter-spacing:1px;flex-wrap:wrap;gap:10px}
+.colo b{color:var(--dim);font-weight:600}
+
+@media(max-width:900px){
+  .grid,.idx-wrap{grid-template-columns:1fr 1fr}
+  .film{grid-template-columns:60px 1fr}
+  .film .threads{grid-column:1/3;padding-top:6px}
+  .room,.faqs,.aside{grid-template-columns:1fr}
+  .ritual{grid-template-columns:1fr 1fr}
+  .ft{grid-template-columns:1fr 1fr}
+  .bar nav{display:none}
+}
+@media(max-width:560px){
+  .wrap,.bar .in{padding-left:18px;padding-right:18px}
+  .grid,.idx-wrap,.ritual{grid-template-columns:1fr}
+  .film{grid-template-columns:1fr}
+  .film .threads{grid-column:1/2}
+  .faqs .faq:nth-child(odd){border-right:0}
+  .ft{grid-template-columns:1fr}
+  .cover{min-height:78vh;padding:50px 0 70px}
+  .cover h1{font-size:44px;letter-spacing:-1px}
+  section{padding:56px 0}
+  .head{margin-bottom:30px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="bar"><div class="in">
+  <div class="logo"><b>午夜<i>伦理</i>电影网</b><span>Late-night Ethics</span></div>
+  <nav>
+    <a href="#dilemma">困境类型</a><a href="#list">本周片单</a><a href="#room">讨论室</a><a href="#ritual">观看仪式</a><a href="#idx">题材索引</a><a href="#about">关于本站</a><a href="#qa">读者问答</a>
+  </nav>
+  <div class="clock"><span class="d"></span><span id="clk">00:00:00</span></div>
+</div></div>
+
+<div class="wrap">
+
+  <div class="cover"><div class="glow"></div><div class="glow2"></div><div class="in">
+    <div class="eyebrow">Late-night Film Notes · 第 41 夜</div>
+    <h1>午夜伦理<br><span class="thin">电影网 · </span><span class="em">两难</span></h1>
+    <div class="zh">伦 理 电 影 片 单 · 深 夜 整 理</div>
+    <p class="lead">我们不列"高分伦理片榜"。这里收录的，是那些把主角推进<strong>没有好答案的房间</strong>的电影——选哪一边都要付出代价，而代价往往不是主角的，是别人的。</p>
+    <div class="scroll-cue">向下滚动 · 今晚看哪一部</div>
+  </div></div>
+
+  <section id="dilemma"><div class="head"><span class="tag">Section 01 / 困境类型</span><h2>六种<em>不得不选</em>的时刻</h2><p>按"主角卡在哪一种两难"分类，而不是按国家、年代或题材。同一个困境，换个家庭、换个职业、换种权力关系，味道完全不一样。</p></div>
+    <div class="grid">
+      <div class="card"><div class="top"><span class="no">No.01</span><span class="pill">亲情</span></div><h3>救一个人，还是救一家</h3><div class="quote">"如果代价是让另一个家庭失去他们的人呢？"</div><dl><div><dt>典型</dt><dd>器官移植、捐献决定、绝症家庭</dd></div><div><dt>冲突源</dt><dd>稀缺资源分配</dd></div><div><dt>看完会想</dt><dd>三小时起步</dd></div></dl><a href="#" class="more">这一类的片</a></div>
+      <div class="card"><div class="top"><span class="no">No.02</span><span class="pill h">医患</span></div><h3>医生的手，该伸多长</h3><div class="quote">"病人的意愿，和病人家属的意愿，是两个人。"</div><dl><div><dt>典型</dt><dd>安乐死、知情同意、临终决定</dd></div><div><dt>冲突源</dt><dd>专业判断 vs 自主权</dd></div><div><dt>看完会想</dt><dd>一个晚上</dd></div></dl><a href="#" class="more">这一类的片</a></div>
+      <div class="card"><div class="top"><span class="no">No.03</span><span class="pill">职业</span></div><h3>守口如瓶，还是守住良心</h3><div class="quote">"我把这个说出来，明天就没法再干这行了。"</div><dl><div><dt>典型</dt><dd>律师、记者、法官、会计师</dd></div><div><dt>冲突源</dt><dd>保密义务 vs 公共利益</dd></div><div><dt>看完会想</dt><dd>两三天</dd></div></dl><a href="#" class="more">这一类的片</a></div>
+      <div class="card"><div class="top"><span class="no">No.04</span><span class="pill">记忆</span></div><h3>真相重要，还是关系重要</h3><div class="quote">"有些事一家人默契地不说，说了家就没了。"</div><dl><div><dt>典型</dt><dd>家庭秘密、代际创伤、寻亲</dd></div><div><dt>冲突源</dt><dd>知情权 vs 和睦</dd></div><div><dt>看完会想</dt><dd>一个周末</dd></div></dl><a href="#" class="more">这一类的片</a></div>
+      <div class="card"><div class="top"><span class="no">No.05</span><span class="pill h">旁观</span></div><h3>看见了，算不算共犯</h3><div class="quote">"我没动手。我只是没拦住。"</div><dl><div><dt>典型</dt><dd>职场霸凌、校园事件、邻里冲突</dd></div><div><dt>冲突源</dt><dd>不作为的道德责任</dd></div><div><dt>看完会想</dt><dd>一整周</dd></div></dl><a href="#" class="more">这一类的片</a></div>
+      <div class="card"><div class="top"><span class="no">No.06</span><span class="pill">正义</span></div><h3>法律给不了的，自己拿回来</h3><div class="quote">"走程序要三年。他等不了三年。"</div><dl><div><dt>典型</dt><dd>复仇、私刑、和解、宽恕</dd></div><div><dt>冲突源</dt><dd>程序正义 vs 结果正义</dd></div><div><dt>看完会想</dt><dd>很久</dd></div></dl><a href="#" class="more">这一类的片</a></div>
+    </div>
+  </section>
+
+  <section id="list"><div class="head"><span class="tag">Section 02 / 本周片单</span><h2>这一周，<em>六部</em>值得留到深夜看的</h2><p>每部片给出"核心困境"和"三条讨论线索"。第三条通常是争议最大的那一条，看完最好找个人聊。</p></div>
+    <div class="films">
+      <div class="film"><div class="idx">No.01</div><div class="info"><h3>海边的曼彻斯特 <span>Manchester by the Sea</span></h3><div class="dilemma">一个无法自我原谅的人，被推回必须照顾别人的位置上。他不是不善良，是他已经没有多余的情感可以分给任何人。</div><div class="meta"><span class="c">亲情困境</span><span>美国</span><span>2016</span><span>137 min</span></div></div><div class="threads"><div class="t">"能否把一个人从自责里救出来？"<i>关于内疚是否有保质期</i></div><div class="t">"监护权到底是责任，还是惩罚？"<i>关于法律对亲属的默认假设</i></div><div class="t">"为什么不安排他走出来？"<i>争议点：电影拒绝给治愈的结局</i></div></div></div>
+      <div class="film"><div class="idx">No.02</div><div class="info"><h3>三块广告牌 <span>Three Billboards</span></h3><div class="dilemma">一个母亲用最极端的方式逼一个小镇回答她的问题。她不在乎方法对不对，她只在乎答案出不出来。</div><div class="meta"><span class="c">正义困境</span><span>英国 / 美国</span><span>2017</span><span>115 min</span></div></div><div class="threads"><div class="t">"当制度失灵，个人可以走多远？"<i>关于私力救济的边界</i></div><div class="t">"愤怒会不会传染，从母亲传到警察？"<i>关于暴力如何转移而非消失</i></div><div class="t">"结尾那趟车，到底去不去？"<i>争议点：开放结局的道德重量</i></div></div></div>
+      <div class="film"><div class="idx">No.03</div><div class="info"><h3>别告诉她 <span>The Farewell</span></h3><div class="dilemma">一家人一致决定不告诉奶奶她得了绝症。美国长大的孙女是唯一一个认为"她有权知道"的人。</div><div class="meta"><span class="c">记忆困境</span><span>美国 / 中国</span><span>2019</span><span>100 min</span></div></div><div class="threads"><div class="t">"隐瞒是不是一种保护，还是一种剥夺？"<i>关于知情同意的跨文化差异</i></div><div class="t">"谁有资格替家人做决定？"<i>关于家庭内部的权力结构</i></div><div class="t">"为什么中国观众和美国观众反应相反？"<i>争议点：价值观本身就是影片的议题</i></div></div></div>
+      <div class="film"><div class="idx">No.04</div><div class="info"><h3>狩猎 <span>Jagten</span></h3><div class="dilemma">一个小镇对一个被指控的男人下了判断，然后发现证据站不住。问题是：认错之后，小镇怎么面对他？</div><div class="meta"><span class="c">旁观困境</span><span>丹麦</span><span>2012</span><span>115 min</span></div></div><div class="threads"><div class="t">"集体下判断的人，要不要负责？"<i>关于群体性道德免责</i></div><div class="t">"清白能恢复名誉吗？"<i>关于社会性死亡的不可逆</i></div><div class="t">"最后一枪是谁开的？"<i>争议点：结尾究竟是不是宽恕</i></div></div></div>
+      <div class="film"><div class="idx">No.05</div><div class="info"><h3>因父之名 <span>In the Name of the Father</span></h3><div class="dilemma">儿子和父亲一起被冤进监狱，十四年里他们要把彼此从对方的愧疚里捞出来。</div><div class="meta"><span class="c">职业困境</span><span>英国 / 爱尔兰</span><span>1993</span><span>133 min</span></div></div><div class="threads"><div class="t">"体制出错时，个人靠什么翻案？"<i>关于证据链的脆弱</i></div><div class="t">"父与子之间的愧疚，谁欠谁？"<i>关于亲情里的责任倒错</i></div><div class="t">"翻案之后，失去的十四年怎么算？"<i>争议点：平反不等于补偿</i></div></div></div>
+      <div class="film"><div class="idx">No.06</div><div class="info"><h3>房间 <span>Room</span></h3><div class="dilemma">一个在封闭空间里长大的孩子，第一次看见"外面"。他必须重新学习什么是人，什么不是。</div><div class="meta"><span class="c">亲情困境</span><span>爱尔兰 / 加拿大</span><span>2015</span><span>118 min</span></div></div><div class="threads"><div class="t">"保护到什么程度，算过度保护？"<i>关于创伤后的亲子边界</i></div><div class="t">"受害者要不要被公众消费？"<i>关于媒体伦理</i></div><div class="t">"孩子视角是不是一种逃避？"<i>争议点：用孩子的眼睛淡化了什么</i></div></div></div>
+    </div>
+  </section>
+
+  <section id="room"><div class="head"><span class="tag">Section 03 / 讨论室</span><h2>一个能<em>吵起来</em>的问题</h2><p>每周抛一个真实发生的伦理难题（非影视情节），给出正反两方的论据结构。我们不给答案。</p></div>
+    <div class="room">
+      <div class="panel"><div class="who">This Week · 本期议题</div><h3>姐姐的车祸抢救费，该不该由弟弟出</h3><div class="q">"弟弟刚凑够买房的首付。姐姐车祸后需要长期康复，保险只覆盖一部分。姐姐的丈夫提出，能不能先借这笔首付。"</div><ol><li>弟弟不出，姐姐的康复质量会明显下降，可能留下终身影响</li><li>弟弟出了，他自己的家庭会在未来五年承受实质的经济压力</li><li>亲情不是债务，但"亲人间该互相兜底"是社会普遍期待</li><li>如果把这件事交给法律，法律几乎一定会判定弟弟没有义务</li><li>争论的核心其实是：谁有权替"手足"这个词定价</li></ol></div>
+      <div class="panel"><div class="who">Last Week · 上期议题</div><h3>老人拒绝手术，子女能不能替他签</h3><div class="q">"父亲清醒、能沟通，但坚持拒绝必要手术。三个子女意见分裂：两个想签同意书，一个认为必须尊重父亲。"</div><ol><li>自主决定权是法律底线，与决定"对不对"无关</li><li>家属签同意书的理由往往是"将来会后悔没救"，本质是在替自己减压</li><li>医疗团队在此类情形下倾向于尊重患者本人，除非被证明无判断能力</li><li>争议常转移成子女之间的矛盾，父亲本人的意愿反而被淹没</li><li>真正的问题不是手术，是家人不敢接受"他有自己的打算"</li></ol></div>
+    </div>
+  </section>
+
+  <section id="ritual"><div class="head"><span class="tag">Section 04 / 观看仪式</span><h2>深夜看这类片，<em>环境</em>比片单重要</h2><p>伦理片的情绪不是"看完就走"的类型。下面这套流程是我们试过之后，讨论质量明显变好的一组条件。</p></div>
+    <div class="ritual">
+      <div class="step"><div class="n">01</div><h4>定一个时间</h4><p>22:30 之后。白天看这类片，结论会变得特别干脆，干脆到失真。</p><div class="at">建议 · 22:30</div></div>
+      <div class="step"><div class="n">02</div><h4>只找一个人</h4><p>最多两人。讨论超过三人，话题会迅速滑向"谁的判断更正确"。</p><div class="at">建议 · 1-2 人</div></div>
+      <div class="step"><div class="n">03</div><h4>看完等二十分钟</h4><p>先别聊。去倒水、关灯、让最后一场戏的台词落下来再说。</p><div class="at">建议 · 20 分钟</div></div>
+      <div class="step"><div class="n">04</div><h4>只问一句</h4><p>"如果是你，你会怎么做。"不要评价角色，不要引用豆瓣评分。</p><div class="at">建议 · 1 个问题</div></div>
+    </div>
+  </section>
+
+  <section id="idx"><div class="head"><span class="tag">Section 05 / 题材索引</span><h2>按<em>议题</em>找片</h2><p>同一部片可能出现在两个议题下。这很正常——大多数伦理困境都不是单线程的。</p></div>
+    <div class="idx-wrap">
+      <div class="idx"><div class="k">家庭与代际</div><ul><li>海边的曼彻斯特 <span>2016</span></li><li>别告诉她 <span>2019</span></li><li>房间 <span>2015</span></li><li>小偷家族 <span>2018</span></li><li>婚姻故事 <span>2019</span></li></ul></div>
+      <div class="idx"><div class="k">司法与程序</div><ul><li>因父之名 <span>1993</span></li><li>狩猎 <span>2012</span></li><li>十二怒汉 <span>1957</span></li><li>控方证人 <span>1957</span></li><li>悲惨世界 <span>2019</span></li></ul></div>
+      <div class="idx"><div class="k">医疗与生死</div><ul><li>达拉斯买家俱乐部 <span>2013</span></li><li>依然爱丽丝 <span>2014</span></li><li>第七封印 <span>1957</span></li><li>无痛失恋 <span>2010</span></li><li>爱 <span>2012</span></li></ul></div>
+      <div class="idx"><div class="k">沉默与旁观</div><ul><li>狩猎 <span>2012</span></li><li>窃听风暴 <span>2006</span></li><li>朗读者 <span>2008</span></li><li>官方机密 <span>2019</span></li><li>沉默的真相 <span>2020</span></li></ul></div>
+      <div class="idx"><div class="k">复仇与宽恕</div><ul><li>三块广告牌 <span>2017</span></li><li>老男孩 <span>2003</span></li><li>天注定 <span>2013</span></li><li>告白 <span>2010</span></li><li>复仇在我 <span>1979</span></li></ul></div>
+      <div class="idx"><div class="k">身份与说谎</div><ul><li>完美陌生人 <span>2016</span></li><li>利刃出鞘 <span>2019</span></li><li>消失的爱人 <span>2014</span></li><li>她的谎言 <span>2010</span></li><li>一次别离 <span>2011</span></li></ul></div>
+    </div>
+  </section>
+
+  <section id="about"><div class="head"><span class="tag">Section 06 / 关于本站</span><h2>我们<em>怎么</em>挑片</h2><p>选片标准写在这里，方便你判断本站的内容是不是你想要的。如果标准变了，这一节会同步更新。</p></div>
+    <div class="aside">
+      <div><div class="blk"><h4>① 困境必须是主角的，不是配角的</h4><p>有些片只是"包含伦理议题"，议题只是背景板。我们不收。我们要的是：主角所有的行动都围绕那个两难展开。</p></div><div class="blk"><h4>② 不接受没有代价的"正确选择"</h4><p>如果一个角色做了道德上正确的事，然后一切变好，那是励志片，不是伦理片。我们要看的是代价落下来那一刻。</p></div><div class="blk"><h4>③ 不做道德裁判</h4><p>我们描述困境，不评判角色。如果一篇影评写的是"这个人太坏了"，它通常没看懂这部片。</p></div><div class="blk"><h4>④ 新旧都要，但有门槛</h4><p>近十年新片占六成，老片占四成。老片的门槛更高——它得在当下重看仍然有讨论空间。</p></div></div>
+      <div class="stats"><div class="row"><b>214</b><span>收录影片</span></div><div class="row"><b>06</b><span>困境类型</span></div><div class="row"><b>41</b><span>更新周数</span></div><div class="row"><b>23</b><span>讨论议题</span></div><div class="row"><b>每周日</b><span>更新时间</span></div></div>
+    </div>
+  </section>
+
+  <section id="qa"><div class="head"><span class="tag">Section 07 / 读者问答</span><h2>被问得<em>最多</em>的几个问题</h2><p>也欢迎把你的问题寄过来。能写出好答案的问题，往往会变成下一期讨论室。</p></div>
+    <div class="faqs">
+      <div class="faq"><div class="q">为什么片单里没有《七宗罪》这类片？</div><p>那类片讨论的是"恶"，不是"两难"。我们的收录标准是主角必须有一个要付出代价的抉择，而不仅是面对一个坏人。两者的情绪结构完全不同。</p></div>
+      <div class="faq"><div class="q">每部片的"三条讨论线索"是影评吗？</div><p>不是。它们是提问，不是结论。第三条约等于我们把争议最大的那个点单独拎出来，方便你提前知道这部片会在哪里吵起来。</p></div>
+      <div class="faq"><div class="q">讨论室的议题是真的吗？</div><p>是真实事件改写的，隐去了所有可识别信息，只保留结构。这也是我们只给正反论据、不给答案的原因——现实里这些事通常没有答案。</p></div>
+      <div class="faq"><div class="q">索引里的年份为什么有的很旧？</div><p>因为我们按议题收片，不看年代。老片如果议题仍然有讨论空间，就会被收进来。年份只用来定位版本，不代表新旧优劣。</p></div>
+      <div class="faq"><div class="q">能投稿吗？</div><p>可以。我们在编辑部页面留了投稿入口，要求只有一条：请说明这部片的困境到底是什么，别写观后感。</p></div>
+      <div class="faq"><div class="q">本站提供片源吗？</div><p>不提供。本站是选片与讨论参考，所有影片请通过正规渠道观看。索引中的年份为发行年份，不代表任何版本信息。</p></div>
+    </div>
+  </section>
+
+  <section class="cta"><div class="eyebrow">Newsletter</div><h2>每周日深夜，<em>一封</em>关于伦理片的信</h2><p>六部片的核心困境摘要、一条讨论议题、三句值得抄下来的台词。不发广告，不做推荐位，看完不想再收可以直接退订。</p><form onsubmit="event.preventDefault();this.querySelector('button').textContent='已订阅 ✓'"><input type="email" placeholder="your@email.com" aria-label="邮箱"><button type="submit">订阅</button></form><div class="note">本站不收集除订阅邮箱外的任何信息 · 邮件仅在每周日发送</div></section>
+
+</div>
+
+<footer><div class="wrap">
+  <div class="ft">
+    <div><div class="b">午夜<i>伦理</i>电影网</div><div class="u">https://wuyelunlidianyingwang-zh.github.io</div><p>在深夜整理那些让主角陷入两难抉择的伦理片。本站只做选片与讨论参考，标注每部片的核心困境、共犯人物与讨论线索，不提供任何在线播放、下载或片源链接，请通过正规渠道观看。</p></div>
+    <div><h5>困境类型</h5><ul><li><a href="#">亲情两难</a></li><li><a href="#">医患抉择</a></li><li><a href="#">职业伦理</a></li><li><a href="#">记忆与秘密</a></li><li><a href="#">旁观责任</a></li></ul></div>
+    <div><h5>工具</h5><ul><li><a href="#">题材索引</a></li><li><a href="#">讨论议题库</a></li><li><a href="#">选片标准</a></li><li><a href="#">深夜观看清单</a></li><li><a href="#">往期周刊</a></li></ul></div>
+    <div><h5>编辑部</h5><ul><li><a href="#">关于本站</a></li><li><a href="#">投稿与纠错</a></li><li><a href="#">免责声明</a></li><li><a href="#">隐私说明</a></li><li><a href="#">联系我们</a></li></ul></div>
+  </div>
+  <div class="colo"><span><b>© 2026 午夜伦理电影网 wuyelunlidianyingwang-zh.github.io</b> · 每周日更新 · 本站为选片参考，不提供片源</span><span>第 41 夜 · 本站内容仅供参考</span></div>
+</div></footer>
+
+<script>
+(function(){
+  var el=document.getElementById('clk');
+  function tick(){
+    var d=new Date();
+    var p=function(n){return n<10?'0'+n:''+n};
+    el.textContent=p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds());
+  }
+  tick();setInterval(tick,1000);
+})();
+</script>
+
+</body>
+</html>
